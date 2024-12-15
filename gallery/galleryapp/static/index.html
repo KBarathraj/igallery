@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1 align="center">Interactive Image Gallery</h1>
+ 
+<div class="container">
+    <div class="gallery">
+        <img src="Untitled.webp" onclick="openFullImg(this.src)">
+        <img src="ak11.webp" onclick="openFullImg(this.src)">
+        <img src="kojima.jpg" onclick="openFullImg(this.src)">
+        <img src="bezos.webp" onclick="openFullImg(this.src)">
+        <img src="bill.webp" onclick="openFullImg(this.src)">
+        <img src="dhanush1.webp" onclick="openFullImg(this.src)">
+        
+    </div>
+
+</div>
+<div class="fullimg" id="fullImgBox">
+    <img src="Untitled.webp" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+</div>  
+<footer>
+    <p align="center">&copy; Designed and developed by K Barathraj</p>
+</footer>
+</body>
+
+</html>
